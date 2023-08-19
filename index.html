@@ -6,6 +6,10 @@
 <meta http-equiv="Expires" content="0" />
   </head>
   <body>
+    <script>
+      let params = (new URL(document.location)).searchParams; 
+      alert(params.get("data"));
+    </script>
     <center>
       <h1>
         Салам алейкум гг test
